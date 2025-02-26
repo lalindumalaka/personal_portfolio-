@@ -10,7 +10,7 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('src/assets/hero-pic.png')",
+          backgroundImage: "url('assets/hero-pic.png')",
           filter: "blur(3px)", // Adjust blur strength
         }}
       ></div>
