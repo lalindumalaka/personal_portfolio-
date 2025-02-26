@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import {  FaDog, FaGlobe } from 'react-icons/fa'
-import { FaCodeFork, FaHotel, FaHouseChimney, FaPlugCircleBolt } from 'react-icons/fa6'
+import { FaCodeFork, FaHotel, FaPlugCircleBolt } from 'react-icons/fa6'
 
 const projects = [
   {
