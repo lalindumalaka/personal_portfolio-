@@ -9,7 +9,7 @@ const Experience = () => {
       duration: "Sep 2023 – Present",
       description: "Developing a strong foundation in software development, system design, and problem-solving through academic and project-based learning.",
       skills: ["Programming", "Coding", "Software Development"],
-      logo: "assets/UOW_logo.jpg", // Ensure this path is correct
+      logo: "assets/UOW_logo.jpg", 
     },
     {
       title: "Professional Certificate in Marketing (PCM)",
@@ -17,7 +17,7 @@ const Experience = () => {
       duration: "May 2023 – Jul 2023",
       description: "Gained skills in marketing strategies, consumer behavior, and market analysis.",
       skills: ["Marketing", "Digital Marketing"],
-      logo: "assets/SLIM_logo.jpg", // Ensure this path is correct
+      logo: "assets/SLIM_logo.jpg", 
     },
     {
       title: "General Certificate of Education",
@@ -25,7 +25,7 @@ const Experience = () => {
       duration: "Mar 2009 – Feb 2023",
       description: "Completed O Levels In 2019 And A Levels (Maths Stream) In 2022.",
       skills: ["Student Services", "Student Engagement"],
-      logo: "assets/richmond_logo.jpg", // Ensure this path is correct
+      logo: "assets/richmond_logo.jpg", 
     },
   ];
 
