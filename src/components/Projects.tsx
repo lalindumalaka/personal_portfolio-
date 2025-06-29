@@ -1,21 +1,44 @@
 import { motion } from 'framer-motion'
-import {  FaDog, FaGlobe } from 'react-icons/fa'
-import { FaCodeFork, FaHotel, FaPlugCircleBolt } from 'react-icons/fa6'
+import { FaDog , FaFilm, FaGlobe , FaLock } from 'react-icons/fa'
+
+import { FaNetworkWired , FaCodeFork, FaHotel, FaPlugCircleBolt,FaUserAstronaut} from 'react-icons/fa6'
 
 const projects = [
+   {
+    title: "PlotPOP ",
+    description: "PlotPOP is a full-stack AI web app that generates creative movie storylines based on user input like genre, runtime, and main characters, using OpenAI’s GPT model.",
+    icon: <FaFilm className="text-4xl text-primary mb-4" />,
+    tags: ["AI-powered tool", "FullStack", "Movie"],
+    link: "https://github.com/lalindumalaka/PlotPop.git"
+  },
+      {
+     title: "Maximum Flow Algorithm in Network Graphs",
+     description:
+       "Implemented Ford-Fulkerson and Edmonds-Karp algorithms to optimize flows in directed networks. Built using Java to solve max-flow problems efficiently.",
+     icon: <FaNetworkWired className="text-4xl text-primary mb-4" />,
+     tags: ["Networking", "Graph Algorithms", "Max Flow"],
+     link: "https://github.com/lalindumalaka/Edmonds_Karp-BFS-_Algo_IIT_CWK_2025.git"
+   },
   {
-    title: "Veta.lk (On Going) ",
+    title: "Veta.lk",
     description: "A Centralized Platform Mobile App For All The Veterinary Needs In Sri Lanka",
     icon: <FaDog className="text-4xl text-primary mb-4" />,
     tags: ["Mobile App Development", "SDGP Project", "Vet Services In SL"],
-    link: "https://veta-app-marketing-site.vercel.app/"
+    link: "https://www.vetaa.lk/"
   },
   {
     title: "Real-Time Event Ticketing System",
     description: "Real-Time Event Ticketing System built with **Spring Boot & React.js**, using Multi-Threading and the Producer-Consumer pattern. Vendors add tickets while customers purchase them concurrently, simulating real-time booking.",
     icon: <FaCodeFork className="text-4xl text-primary mb-4" />,
     tags: ["Object-Oriented Programming", "FullStack", "Multi-Threading"],
-    link: "#"
+    link: "https://github.com/lalindumalaka/Real-Time-Event-Ticketing-System.git"
+  },
+ {
+  title: "MiliPass - A Modern Password Generator",
+  description: "MiliPass is a user-friendly password generator with a modern UI, dark/light mode, and customizable password options for secure generation.",
+  icon: <FaLock className="text-4xl text-primary mb-4" />,
+  tags: ["UI/UX Design", "FrontEnd Devlopment", "Security"],
+  link: "https://lalindumalaka.github.io/MiliPass/"
   },
   {
     title: "Villa White Dome",
@@ -36,7 +59,14 @@ const projects = [
     description: "A Website Aligned With The United Nations Sustainable Development Goals of “Good Health & Well Being”",
     icon: <FaGlobe className="text-4xl text-primary mb-4" />,
     tags: ["UN SDG's", "Web Development", "Group Work"],
-    link: "#"
+    link: "https://github.com/lalindumalaka/Healthy_Harvest.git"
+  },
+   {
+    title: "AI Text Summarizer App By Postman Academy ",
+    description: "Built an AI-powered text summarizer tool using JavaScript, JSON, and APIs, applying core programming skills to process and generate concise summaries efficiently.",
+    icon: <FaUserAstronaut className="text-4xl text-primary mb-4" />,
+    tags: ["Postman Academy", "API's", "AI"],
+    link: "https://a15d4ee1-5f5f-41dc-ab3b-38e25b02fd0a-00-1kktbx3jot0hi.pike.replit.dev/"
   }
 ]
 
